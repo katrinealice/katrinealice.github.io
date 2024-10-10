@@ -175,7 +175,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #E27689;
+			color: #d55c46;
 			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 
@@ -1742,6 +1742,7 @@ input, select, textarea {
 			margin-bottom: 0;
 		}
 
+
 /* Image */
 
 	.image {
@@ -2017,6 +2018,7 @@ input, select, textarea {
 
 		.icon:before {
 			line-height: inherit;
+			margin-top: 5px; 
 		}
 
 		.icon > .label {
@@ -2055,7 +2057,7 @@ input, select, textarea {
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 250px;
+		width: 200px;
 	}
 
 		#header .top {
@@ -2169,7 +2171,7 @@ input, select, textarea {
 				}
 
 					#nav ul li a.active span:before {
-						color: #e27689;
+						color: #d55c46;
 					}
 
 /* Footer */
@@ -2219,7 +2221,7 @@ input, select, textarea {
 
 			#main > section.dark {
 				color: #ddd;
-				color: rgba(255, 255, 255, 0.75);
+				color: rgba(255, 255, 255, 0.80);
 			}
 
 				#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
@@ -2263,6 +2265,8 @@ input, select, textarea {
 				background-color: #e8edec;
 			}
 
+
+
 /* Wide */
 
 	@media screen and (min-width: 961px) and (max-width: 1880px) {
@@ -2270,25 +2274,25 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, textarea, select {
-				font-size: 17pt;
+				font-size: 14pt;
 			}
 
 		/* Header */
 
 			#header {
-				width: 200px;
+				width: 300px;
 			}
 
 		/* Footer */
 
 			#footer {
-				margin-left: 200px;
+				margin-left: 300px;
 			}
 
 		/* Main */
 
 			#main {
-				margin-left: 200px;
+				margin-left: 300px;
 			}
 
 	}
@@ -2631,3 +2635,46 @@ input, select, textarea {
 				}
 
 	}
+
+
+/* Publication list */
+.container .publication {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left; 
+}
+
+.container .publication:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+.container .publication-number {
+    font-weight: bold;
+    color: #555;
+    margin-right: 5px; /* Space between number and title */
+}
+
+.container .publication-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    display: inline; /* Keeps number and title on the same line */
+}
+
+.container .authors {
+    font-size: 0.95em;
+    color: #777;
+}
+
+.container .publication-link {
+    text-decoration: none;
+    color: #1a73e8;
+    font-size: 0.9em;
+}
+
+.container .publication-link:hover {
+    text-decoration: underline;
+}
