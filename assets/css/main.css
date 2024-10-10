@@ -2220,7 +2220,7 @@ input, select, textarea {
 
 			#main > section.dark {
 				color: #ddd;
-				color: rgba(255, 255, 255, 0.75);
+				color: rgba(255, 255, 255, 0.80);
 			}
 
 				#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
@@ -2277,19 +2277,19 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				width: 350px;
+				width: 300px;
 			}
 
 		/* Footer */
 
 			#footer {
-				margin-left: 350px;
+				margin-left: 300px;
 			}
 
 		/* Main */
 
 			#main {
-				margin-left: 350px;
+				margin-left: 300px;
 			}
 
 	}
