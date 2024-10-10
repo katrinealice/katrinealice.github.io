@@ -1794,8 +1794,8 @@ input, select, textarea {
 
 		.image.signoff {
 		    display: block;              /* Block-level element */
-		    width: 150px;                /* Set the desired size of the image */
-		    height: 150px;               /* Ensure it's a square to make it perfectly round */
+		    width: 300px;                /* Set the desired size of the image */
+		    height: 300px;               /* Ensure it's a square to make it perfectly round */
 		    margin: 0 auto;              /* Center the image horizontally */
 		    border-radius: 50%;          /* Makes the image round */
 		    overflow: hidden;            /* Ensures that the image is confined to the round border */
@@ -1807,6 +1807,7 @@ input, select, textarea {
 		    height: 100%;                /* Ensure the image covers the container */
 		    object-fit: cover;           /* Ensures the image retains its aspect ratio and covers the container */
 		}
+
 
 
 /* List */
