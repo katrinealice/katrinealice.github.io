@@ -2636,10 +2636,8 @@ input, select, textarea {
 
 	}
 
-/* 
-/* PUBLICATION LIST STYLE */
 
-/* Publications Styles */
+/* Publication list */
 .container .publication {
     background-color: #fff;
     border: 1px solid #ddd;
@@ -2647,6 +2645,7 @@ input, select, textarea {
     padding: 15px;
     margin-bottom: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left; 
 }
 
 .container .publication:nth-child(even) {
@@ -2656,12 +2655,13 @@ input, select, textarea {
 .container .publication-number {
     font-weight: bold;
     color: #555;
+    margin-right: 5px; /* Space between number and title */
 }
 
 .container .publication-title {
     font-size: 1.2em;
     font-weight: bold;
-    margin: 5px 0;
+    display: inline; /* Keeps number and title on the same line */
 }
 
 .container .authors {
@@ -2677,4 +2677,4 @@ input, select, textarea {
 
 .container .publication-link:hover {
     text-decoration: underline;
-} */
+}
