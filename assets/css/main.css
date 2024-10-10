@@ -1800,6 +1800,7 @@ input, select, textarea {
 		    border-radius: 50%;          /* Makes the image round */
 		    overflow: hidden;            /* Ensures that the image is confined to the round border */
 		    border: 2px solid #ddd;      /* Optional: Add a border around the image */
+			padding-bottom: 15px;
 		}
 		
 		.image.signoff img {
