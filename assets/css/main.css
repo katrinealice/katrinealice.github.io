@@ -1792,6 +1792,23 @@ input, select, textarea {
 				width: auto;
 			}
 
+		.image.signoff {
+		    display: block;              /* Block-level element */
+		    width: 150px;                /* Set the desired size of the image */
+		    height: 150px;               /* Ensure it's a square to make it perfectly round */
+		    margin: 0 auto;              /* Center the image horizontally */
+		    border-radius: 50%;          /* Makes the image round */
+		    overflow: hidden;            /* Ensures that the image is confined to the round border */
+		    border: 2px solid #ddd;      /* Optional: Add a border around the image */
+		}
+		
+		.image.signoff img {
+		    width: 100%;                 /* Make sure the image fits the container */
+		    height: 100%;                /* Ensure the image covers the container */
+		    object-fit: cover;           /* Ensures the image retains its aspect ratio and covers the container */
+		}
+
+
 /* List */
 
 	ul {
@@ -1948,10 +1965,10 @@ input, select, textarea {
 		border-radius: 0.35em;
 		color: #fff !important;
 		text-decoration: none;
-		padding: 0.5em 1.5em 0.5em 1.5em;
+		padding: 0.4em 1.2em 0.4em 1.2em;
 		font-size: 0.9;
 		margin-right: 10px;
-		background-color: #B83F33;
+		background-color: #E77A5E;
 		border: 0;
 		cursor: pointer;
 		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
@@ -2653,7 +2670,7 @@ input, select, textarea {
     margin-bottom: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: left; 
-	line-height: 1.0;
+	line-height: 1.2;
 }
 
 .container .publication:nth-child(even) {
