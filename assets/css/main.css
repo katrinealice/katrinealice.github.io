@@ -1793,14 +1793,14 @@ input, select, textarea {
 			}
 
 		.image.signoff {
-		    display: block;              /* Block-level element */
-		    width: 200px;                /* Set the desired size of the image */
-		    height: 200px;               /* Ensure it's a square to make it perfectly round */
-		    margin: 0 auto;              /* Center the image horizontally */
-		    border-radius: 50%;          /* Makes the image round */
-		    overflow: hidden;            /* Ensures that the image is confined to the round border */
-		    border: 2px solid #ddd;      /* Optional: Add a border around the image */
-			padding-bottom: 15px;
+			display: block;              /* Block-level element */
+			width: 200px;                /* Set the desired size of the image */
+			height: 200px;               /* Ensure it's a square to make it perfectly round */
+			margin: 0 auto;              /* Center the image horizontally */
+			border-radius: 50%;          /* Makes the image round */
+			overflow: hidden;            /* Ensures that the image is confined to the round border */
+			border: 2px solid #ddd;      /* Optional: Add a border around the image */
+			margin-bottom: 15px;
 		}
 		
 		.image.signoff img {
