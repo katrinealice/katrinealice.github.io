@@ -2280,19 +2280,19 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				width: 300px;
+				width: 280px;
 			}
 
 		/* Footer */
 
 			#footer {
-				margin-left: 300px;
+				margin-left: 280px;
 			}
 
 		/* Main */
 
 			#main {
-				margin-left: 300px;
+				margin-left: 280px;
 			}
 
 	}
@@ -2654,18 +2654,18 @@ input, select, textarea {
 
 .container .publication-number {
     font-weight: bold;
-    color: #555;
+    color: #B83F33;
     margin-right: 5px; /* Space between number and title */
 }
 
 .container .publication-title {
-    font-size: 1.2em;
+    font-size: 1.0em;
     font-weight: bold;
     display: inline; /* Keeps number and title on the same line */
 }
 
 .container .authors {
-    font-size: 0.95em;
+    font-size: 0.9em;
     color: #777;
 }
 
