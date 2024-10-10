@@ -2017,6 +2017,7 @@ input, select, textarea {
 
 		.icon:before {
 			line-height: inherit;
+			margin-top: 5px; 
 		}
 
 		.icon > .label {
@@ -2270,7 +2271,7 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, textarea, select {
-				font-size: 17pt;
+				font-size: 14pt;
 			}
 
 		/* Header */
