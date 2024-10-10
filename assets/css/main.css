@@ -2058,7 +2058,7 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
-/* Header */
+/* Header aka the side bar */
 
 	#header {
 		display: -moz-flex;
@@ -2075,7 +2075,7 @@ input, select, textarea {
 		justify-content: space-between;
 		background: #E2C675; /* url("images/overlay.png");*/
 		box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
-		color: #fff;
+		color: #666;
 		height: 100%;
 		left: 0;
 		overflow-y: auto;
@@ -2130,7 +2130,7 @@ input, select, textarea {
 
 		#logo h1 {
 			position: relative;
-			color: #fff;
+			color: #666;
 			font-weight: 600;
 			font-size: 1em;
 			line-height: 1em;
