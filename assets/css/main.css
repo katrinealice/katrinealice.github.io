@@ -1962,15 +1962,14 @@ input, select, textarea {
 	button,
 	.button {
 		position: relative;
-		display: inline-block;
+		display: inline-flex;
 		border-radius: 0.35em;
 		color: #fff !important;
 		text-decoration: none;
-		display: flex;
     		justify-content: center;  /* Center horizontally */
   		align-items: center;      /* Center vertically */
-		padding: 0.4em 1.2em 0.4em 1.2em;
-		font-size: 0.9;
+		padding: 0.4em 1.2em;
+		font-size: 0.9em;
 		margin-right: 10px;
 		background-color: #B97D6B;
 		border: 0;
