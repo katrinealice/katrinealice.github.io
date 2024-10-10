@@ -1970,7 +1970,7 @@ input, select, textarea {
   		align-items: center;      /* Center vertically */
 		padding: 0.4em 1.2em;
 		font-size: 0.9em;
-		margin-right: 10px;
+		margin-right: 20px;
 		background-color: #B97D6B;
 		border: 0;
 		cursor: pointer;
@@ -2335,7 +2335,7 @@ input, select, textarea {
 			}
 
 			#main section.cover {
-				padding: 5em 0;
+				padding: 7em 0;
 			}
 
 	}
