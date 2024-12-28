@@ -1834,9 +1834,21 @@ input, select, textarea {
 /* Icons */
 
 	ul.icons {
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		margin: 0;
+	}
+
+	ul.icons.small {
+		gap: 1.5em; /* small gap */
+	}
+
+	ul.icons.large {
+		gap: 3em; /* large gap */
 	}
 
 		ul.icons li {
@@ -1845,13 +1857,21 @@ input, select, textarea {
 		}
 
 		ul.icons a {
-			display: inline-block;
-			width: 3em;
-			height: 3em;
-			line-height: 3em;
-			text-align: center;
-			border: 0;
+			font-size: 3em; /* Default size */
+			width: auto;
+			height: auto;
+			line-height: normal;
+			border-bottom: none;
 		}
+
+		ul.icons a.small {
+			font-size: 2em;
+		}
+
+		ul.icons a.large {
+			font-size: 4em;
+		}
+
 
 /* Form */
 
