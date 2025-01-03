@@ -132,7 +132,6 @@
     	    // If the clicked image is already enlarged, remove the enlarged class and hide the overlay
     	    if ($clickedImage.hasClass('enlarged')) {
         	$clickedImage.removeClass('enlarged');
-        	$clickedImage.css('transition', 'transform 0.3s ease, width 0.3s ease'); // Restore transition when shrinking
         	$('.overlay').remove(); // Remove overlay
         	return;
     	    }
@@ -141,15 +140,11 @@
     	    $('.image.fit img.enlarged').each(function() {
         	var $img = $(this);
         	$img.removeClass('enlarged');
-        	$img.css('transition', 'transform 0.3s ease, width 0.3s ease'); // Restore transition for other images
     	    });
 
     	    // Remove any existing overlay, then add the new overlay
     	    $('.overlay').remove();
     	    $('body').append($overlay);
-
-    	    // Temporarily remove transition when enlarging
-    	    $clickedImage.css('transition', 'none');
 
     	    // After all images have shrunk, enlarge the clicked image and show the overlay
     	    $clickedImage.addClass('enlarged');
@@ -157,7 +152,6 @@
     	    // Close the image when the overlay is clicked
     	    $overlay.on('click', function() {
         	$clickedImage.removeClass('enlarged');
-        	$clickedImage.css('transition', 'transform 0.3s ease, width 0.3s ease'); // Restore transition
         	$overlay.remove(); // Remove overlay when clicked
     	    });
 	});

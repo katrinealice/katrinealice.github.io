@@ -1753,7 +1753,7 @@ input, select, textarea {
 		.image img {
 			display: block;
 			width: 100%;
-			transition: transform 0.3s ease, width 0.3s ease;
+			transition: none;
 			cursor: pointer;
 			margin: 0 auto;
 		}
