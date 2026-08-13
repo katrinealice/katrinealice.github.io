@@ -2071,6 +2071,18 @@ input, select, textarea {
 		    margin-right: 8px; /* Adjust this value to increase/decrease space */
 		}
 
+		.download-buttons {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
+		flex-wrap: wrap;
+		}
+
+		.download-buttons .button {
+		margin-right: 0; /* removes the general 20px right margin */
+		}
+
 /* Item */
 
 	.item {
